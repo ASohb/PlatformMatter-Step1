@@ -41,3 +41,7 @@ function keyPressed() {
       jogador.pular(); // Pula
     }
   }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight); // Redimensiona o canvas
+}
